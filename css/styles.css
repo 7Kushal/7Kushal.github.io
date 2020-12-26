@@ -133,6 +133,30 @@ p{
    border-radius: 7px;
    text-decoration: none;
 }
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
 @media (max-width: 600px) {
   .background{
     width: 100%;
@@ -145,9 +169,23 @@ p{
   }
   h1{
     margin: auto;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     /* display: block; */
+  }
+  h2{
+    font-weight: normal;
+    color: #11999E;
+    line-height: 2;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+  }
+  p{
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 4px;
+    color: white;
   }
   .body{
     text-align: center;
