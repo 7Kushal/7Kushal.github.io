@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: 'Exo', sans-serif;
 }
+
 .top-container{
   background-color:#1c2b2d;
   color: #66BFBF;
@@ -13,6 +14,8 @@ body {
   margin: 0;
 }
 .hello{
+  position: relative;
+
   width: 50%;
   margin: auto;
 }
@@ -23,16 +26,54 @@ hr{
   margin: 40px auto 40px auto;
 }
 a{
-  color: #66BFBF;
+  color: white;
   margin: 3px 10px 3px 10px;
   text-decoration: none;
 }
 a:hover{
   color: #FFFFFF;
 }
+.container {
+  padding: 0px 15px 0px 15px;
+}
+/*  */
+
+header {
+  font-size: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: .1rem 0;
+  background: rgba(0, 0, 0, .90);
+  z-index: 3;
+  will-change: transform;
+  transition: background .3s,
+  -webkit-transform .5s cubic-bezier(.694,.048,.335,1);
+  transition: transform .5s cubic-bezier(.694,.048,.335,1),background .3s;
+  transition: transform .5s cubic-bezier(.694,.048,.335,1),background .3s,
+  -webkit-transform .5s cubic-bezier(.694,.048,.335,1);
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+
 .background{
   width: 100%;
-  margin:0;
+  margin:0px;
+  position: relative;
+  background: url(https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 110px;
+  min-height: 500px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
 }
 .bottom-container{
   background-color: black;
@@ -40,7 +81,8 @@ a:hover{
   margin:0 0 0 0;
   padding-bottom: 27px;
 }
-.top-title{
+.navbar-brand{
+  font-size: 2rem;
   font-family: 'Ubuntu', sans-serif;
   text-transform: capitalize;
   color: white;
@@ -50,6 +92,9 @@ a:hover{
   top: 13px;
   left: 10px;
 
+}
+.first{
+  margin:4px;
 }
 h1{
   /* font-family: 'Sacramento', cursive; */
@@ -63,7 +108,7 @@ h2{
   line-height: 2;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .profile{
   display: inline-block;
@@ -97,7 +142,7 @@ h3{
   color: #11999E;
 }
 p{
-  font-size: 1rem;
+  font-size: 2rem;
   margin-bottom: 0;
   margin-top: 4px;
   color: white;
@@ -139,13 +184,12 @@ p{
     padding: 0;
   }
   .background{
-    width: 100%;
-    margin:2px;
-  }
-  .top-title{
-    /* display: block; */
-    margin: auto;
+    width:100%;
+    background-size:auto;
     text-align: center;
+    color: #fff;
+    padding-top: 110px;
+    min-height: 350px;
   }
   h1{
     margin: auto;
