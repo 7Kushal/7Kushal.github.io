@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   text-align: center;
   margin: 0;
   font-family: 'Exo', sans-serif;
@@ -6,7 +7,7 @@ body {
 
 .top-container{
   background-color:#1c2b2d;
-  color: #66BFBF;
+  color: #696969;
   margin: 0;
 }
 .middle-container{
@@ -15,13 +16,13 @@ body {
 }
 .hello{
   position: relative;
-
-  width: 50%;
+  z-index: 3;
+  width: 80%;
   margin: auto;
 }
 hr{
   width: 3%;
-  border: dotted #66BFBF 4px;
+  border: dotted #696969 4px;
   border-bottom: none;
   margin: 40px auto 40px auto;
 }
@@ -59,7 +60,28 @@ header {
   transform: translateY(0);
   -webkit-transform: translateY(0);
 }
-
+#features{
+  text-align:center;
+  margin:0;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+}
+h4{
+  font-size: 1.8rem;
+  padding: 4%;
+  width: 100%;
+}
+.easy{
+margin-top :10px;
+margin-bottom: :10px;
+text-align: center;
+}
+.dropdown{
+  margin-left: 25%;
+  margin-right: 50%;
+  text-align: center;
+}
 .background{
   width: 100%;
   margin:0px;
@@ -81,6 +103,9 @@ header {
   margin:0 0 0 0;
   padding-bottom: 27px;
 }
+.contact-me{
+    background-color: black;
+}
 .navbar-brand{
   font-size: 2rem;
   font-family: 'Ubuntu', sans-serif;
@@ -93,21 +118,26 @@ header {
   left: 10px;
 
 }
+.row{
+  text-align: center;
+  color: black;
+  margin: 0;
+}
 .first{
   margin:4px;
 }
 h1{
   /* font-family: 'Sacramento', cursive; */
-   margin-bottom: 0;
-   margin-top: 0;
+   margin-bottom: 10px;
+   margin-top: 10px;
    font-size: 2.5rem;
 }
 h2{
   font-weight: normal;
-  color: #11999E;
+  color: #696969;
   line-height: 2;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
   font-size: 2rem;
 }
 .profile{
@@ -127,7 +157,7 @@ h2{
   margin-right: 90px;
 }
 .static{
-  float: right;
+  width: 60%;
   margin-left: auto;
 }
 .skills{
@@ -136,10 +166,10 @@ h2{
   margin: 15px auto 15px auto;
 }
 h3{
-  color: #11999E;
+  color: #696969;
 }
 .footer-link{
-  color: #11999E;
+  color: #696969;
 }
 p{
   font-size: 2rem;
@@ -148,8 +178,15 @@ p{
   color: white;
 }
 .skill-row{
-  text-align: left;
-  margin: 90px auto 15px auto;
+  display: inline-block;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  margin: 15px auto 15px auto;
+}
+.btn{
+  color: #696969;
+  font-weight: bold;
 }
 .BUTTON_QTO {
    -webkit-border-radius: 20px;
@@ -160,7 +197,7 @@ p{
    font-weight: 300;
    padding: 10px;
    margin-bottom: 10px;
-   background-color: #11999E;
+   background-color: #696969;
    -webkit-box-shadow: 1px 1px 20px 0 #000000;
    -moz-box-shadow: 1px 1px 20px 0 #000000;
    box-shadow: 1px 1px 9px 0 #000000;
@@ -178,7 +215,7 @@ p{
    border-radius: 7px;
    text-decoration: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   html {
     margin: 0;
     padding: 0;
@@ -200,7 +237,7 @@ p{
   }
   h2{
     font-weight: normal;
-    color: #11999E;
+    color: #696969;
     line-height: 2;
     margin-top: 0;
     margin-bottom: 0;
@@ -226,5 +263,10 @@ p{
   .animated{
     margin: auto;
     width: 100%;
+  }
+  .dropdown{
+    margin-left: 25%;
+    margin-right: 50%;
+    text-align: center;
   }
 }
