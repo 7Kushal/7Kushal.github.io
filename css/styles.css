@@ -99,6 +99,7 @@ text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 .bottom-container{
+  font-size: 2rem;
   background-color: black;
   color:#e6d5b8;
   margin:0 0 0 0;
@@ -188,33 +189,6 @@ p{
 .btn{
   color: #696969;
   font-weight: bold;
-}
-.BUTTON_QTO {
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 7px;
-   color: #FFFFFF;
-   font-size: 13px;
-   font-weight: 300;
-   padding: 10px;
-   margin-bottom: 10px;
-   background-color: #696969;
-   -webkit-box-shadow: 1px 1px 20px 0 #000000;
-   -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 1px 1px 9px 0 #000000;
-   text-shadow: 0 0 4px #000000;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-}
-
-.BUTTON_QTO:hover {
-   background: #01060F;
-   -webkit-border-radius: 21px;
-   -moz-border-radius: 21px;
-   border-radius: 7px;
-   text-decoration: none;
 }
 @media screen and (max-width: 600px) {
   html {
