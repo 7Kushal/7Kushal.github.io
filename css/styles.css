@@ -41,16 +41,9 @@ body {
   outline: 0;
   cursor: pointer;
 }
-button.night-mode {
+.night-mode1{
   color: #333333;
   background-color: black;
-}
-.button-image {
-  width: 20px;
-  height: 20px;
-  /* margin-right: 1px; */
-  /* margin-bottom: 1px; */
-  vertical-align: middle;
 }
 .dark {
   /* font-size: 2rem; */
