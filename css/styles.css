@@ -10,7 +10,7 @@ body {
   background-color: #1c2b2d;
   color: #696969;
   margin: 0;
-  
+
 }
 
 .middle-container {
@@ -61,16 +61,18 @@ body {
 }
 
 .hello {
-  font-size: 4.6rem;
+  font-size: 3.9rem;
   font-weight: bold;
   display: inline-block;
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: 2%;
   z-index: 3;
   font-family: 'Open Sans', sans-serif;
   /* width: 100%; */
-  margin: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 2%;
 }
 
 hr {
@@ -96,6 +98,7 @@ a:hover {
 
 /*  */
 header {
+
   font-size: 2rem;
   position: fixed;
   top: 0;
@@ -192,17 +195,19 @@ h4 {
   /* background-color: black; */
 }
 
+
 .navbar-brand {
-  font-size: 3rem;
+
+  font-size: 3.5rem;
   font-weight: bolder;
   font-family: 'Open Sans', sans-serif;
   /* color: black; */
-  margin: 0;
+  margin: 1;
   color: inherit;
-  display: inline-block;
+  /* display: inline-block; */
   position: fixed;
   top: 13px;
-  left: 10px;
+  left: 17%;
 }
 
 .row {
@@ -234,6 +239,7 @@ h2 {
 .profile {
   display: inline-block;
   margin: 15px auto 15px auto;
+  padding: 2%;
   font-size: 4.6rem;
 }
 
